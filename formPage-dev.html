@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dev test page | Service name | nidirect</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="no index, no follow" />
+  <link rel="stylesheet" href="css/nidirect-all.min.css">
+  <link rel="shortcut icon" size="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon">
+  <style>
+    .nigov-banner {
+      border: 5px solid #0b0c0c;
+      color: #0b0c0c;
+      font-size: 0;
+      margin-bottom: 30px;
+      padding: 10px;
+    }
+
+    .nigov-banner--success {
+      border-color: #00703c;
+      color: #00703c;
+    }
+
+    .nigov-banner--important {
+      border-color: #1d70b8;
+      color: #1d70b8;
+    }
+
+    .nigov-banner__icon {
+      fill: currentColor;
+      float: left;
+      margin-right: 10px;
+    }
+
+    .nigov-banner__message {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+
+<body class="govuk-template__body ">
+  <script>
+    document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+
+  </script>
+  <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
+
+  <header role="banner">
+    <div class="nidirect-header">
+      <div class="govuk-width-container">
+        <div class="nidirect-header__logo">
+          <svg role="presentation" focusable="false" xmlns="http://www.w3.org/2000/svg" width="133" height="32"
+            viewbox="0 0 133 32">
+            <path fill="currentColor"
+              d="M0,8.93l7-.41a31.54,31.54,0,0,1,.62,4.64,10.06,10.06,0,0,1,3.31-3.43,8.4,8.4,0,0,1,4.34-1.15,6.65,6.65,0,0,1,3.49.83A5.74,5.74,0,0,1,21,12a9.17,9.17,0,0,1,.86,4V26.17a2.24,2.24,0,0,0,.5,1.63,2.48,2.48,0,0,0,1.71.47h.68a2,2,0,0,0,1.45-.47,1.93,1.93,0,0,0,.47-1.42V13.15A2.42,2.42,0,0,0,26,11.26a3,3,0,0,0-2.13-.65H22.17V8.93l8.36-.24V26.78a1.36,1.36,0,0,0,.35,1.06,1.92,1.92,0,0,0,1.3.44h2V30H14.54V28.28H15.6a3.34,3.34,0,0,0,2.07-.47,1.78,1.78,0,0,0,.59-1.42v-9A8.37,8.37,0,0,0,17.37,13a4.13,4.13,0,0,0-3.81-2,5.39,5.39,0,0,0-4.26,2,8,8,0,0,0-1.68,5.32v7.8a2.24,2.24,0,0,0,.5,1.63,2.56,2.56,0,0,0,1.74.47h1.42V30H.21V28.29H1.66a2.58,2.58,0,0,0,1.66-.44,1.38,1.38,0,0,0,.59-1.12V13.12a2.66,2.66,0,0,0-.74-2,2.88,2.88,0,0,0-2.1-.71H0Z" />
+            <path fill="currentColor" d="M24.29,3.75A3.66,3.66,0,1,1,28,7.41h0a3.65,3.65,0,0,1-3.66-3.66" />
+            <path fill="currentColor"
+              d="M46.61,24.3a3.89,3.89,0,0,1-3,1.51c-2.39,0-3.31-2-3.31-6.3,0-4.41.95-6.5,3.43-6.5a3.82,3.82,0,0,1,2.87,1.63ZM54,0H46.61V11.23a8.06,8.06,0,0,0-5.94-2.66c-4.73,0-8.13,4.26-8.13,11s3.25,10.85,8,10.85a9.25,9.25,0,0,0,6.09-2.54V30H54V0" />
+            <rect fill="currentColor" x="55.3" y="8.84" width="7.36" height="21.1" />
+            <path fill="currentColor"
+              d="M64,30h7.39V16c1.25-1,3.69-1.92,7.48-.53V8.37c-3.13.21-5.59.53-7.48,2.84V8.85H64Z" />
+            <path fill="currentColor"
+              d="M116.33,22.11c-.74,2.39-2.16,3.66-4,3.66-2.66,0-3.54-2.13-3.54-6.53,0-4.08.8-6,3.19-6,1.51,0,2.25,1,2.6,3.07l6.59-.5c-1.27-4.76-4.73-7.42-9.55-7.42-6.21,0-10.58,4.49-10.58,11.23s4.2,11,10.55,11a9.76,9.76,0,0,0,10-7.51Z" />
+            <path fill="currentColor"
+              d="M133,29.91v-5a9.67,9.67,0,0,1-1.86.24c-1.39,0-2-.59-2-1.92V13.49H133V8.85h-3.84V1.39H122V25c0,3.72,2.28,5.5,7,5.5a15,15,0,0,0,4.1-.57" />
+            <path fill="currentColor" d="M55.3,3.75A3.66,3.66,0,1,1,59,7.41,3.66,3.66,0,0,1,55.3,3.75h0" />
+            <path fill="currentColor"
+              d="M100.49,20.93c0-.44,0-.83,0-1.21,0-7.06-4.2-11.32-10.79-11.32S78.56,12.81,78.56,19.69c0,6.68,4.37,11,11.17,11,5,0,8.48-2,10.58-5.79L95.58,22.7a5,5,0,0,1-4.73,3c-2.84,0-4.52-1.68-4.52-4.61v-.12ZM89.76,12.77c2.1,0,3.34,1.51,3.34,4.14H86.54C86.6,14.19,87.72,12.77,89.76,12.77Z" />
+            <image role="presentation" src="assets/images/nidirect-logo.png" xlink:href="" width="133" height="32">
+            </image>
+          </svg>
+          <span class="govuk-visually-hidden">(n i direct government services)</span>
+        </div>
+      </div>
+    </div>
+    <div class="nidirect-servicename-container">
+      <div class="govuk-width-container">
+        <span class="govuk-body govuk-!-font-size-27 nidirect-servicename">Service name</span>
+      </div>
+    </div>
+  </header>
+  <div class="govuk-width-container ">
+    <!-- test banner -->
+    <div class="nigov-banner nigov-banner--success">
+      <svg class="nigov-banner__icon" fill="currentColor" role="presentation" focusable="false"
+        xmlns="http://www.w3.org/2000/svg" viewbox="0 0 25 25" height="25" width="25">
+        <path d="M25,6.2L8.7,23.2L0,14.1l4-4.2l4.7,4.9L21,2L25,6.2z" />
+      </svg>
+      <p class="govuk-body nigov-banner__message">
+        <span class="govuk-visually-hidden">Success</span>You have successfully added 1 question.
+      </p>
+    </div>
+
+    <div class="nigov-banner nigov-banner--important">
+      <svg class="nigov-banner__icon" fill="currentColor" role="presentation" focusable="false"
+        xmlns="http://www.w3.org/2000/svg" viewbox="0 0 25 25" height="25" width="25">
+        <path d="M13.7,18.5h-2.4v-2.4h2.4V18.5z M12.5,13.7c-0.7,0-1.2-0.5-1.2-1.2V7.7c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2v4.8
+  C13.7,13.2,13.2,13.7,12.5,13.7z M12.5,0.5c-6.6,0-12,5.4-12,12s5.4,12,12,12s12-5.4,12-12S19.1,0.5,12.5,0.5z" />
+      </svg>
+      <p class="govuk-body nigov-banner__message">
+        <span class="govuk-visually-hidden">Important </span>2 competitions have been closed for more than one year.<br>
+        To comply with GDPR, the competition data should be removed from the Public Appointments application.<br>
+        <a class="govuk-link" href="#">View competitions available to be removed</a>
+      </p>
+    </div>
+
+    <div class="nigov-banner nigov-banner--important">
+      <svg class="nigov-banner__icon" fill="currentColor" role="presentation" focusable="false"
+        xmlns="http://www.w3.org/2000/svg" viewbox="0 0 25 25" height="25" width="25">
+        <path d="M13.7,18.5h-2.4v-2.4h2.4V18.5z M12.5,13.7c-0.7,0-1.2-0.5-1.2-1.2V7.7c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2v4.8
+  C13.7,13.2,13.2,13.7,12.5,13.7z M12.5,0.5c-6.6,0-12,5.4-12,12s5.4,12,12,12s12-5.4,12-12S19.1,0.5,12.5,0.5z" />
+      </svg>
+      <p class="govuk-body nigov-banner__message">
+        <span class="govuk-visually-hidden">Important </span><span class="govuk-!-font-weight-bold">5 appointments ended
+          over 7 years ago.</span><br>
+        To comply with GDPR, the appointment data should be removed from the Public Appointments application.<br>
+        <a class="govuk-link" href="#">View appointments available to be removed</a>
+      </p>
+    </div>
+    <div class="govuk-notification-banner" role="region" aria-labelledby="govuk-notification-banner-title"
+      data-module="govuk-notification-banner">
+      <div class="govuk-notification-banner__header">
+        <h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title">
+          Important
+        </h2>
+      </div>
+      <div class="govuk-notification-banner__content">
+        <p class="govuk-notification-banner__heading">
+          You have 7 days left to send your application.
+          <a class="govuk-notification-banner__link" href="#">View application</a>.
+        </p>
+      </div>
+    </div>
+
+    <!-- back link to previous browser page  -->
+    <a href="javascript:history.back()" class="govuk-back-link">Back</a>
+
+    <main class="govuk-main-wrapper " id="main-content" role="main">
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+
+          <!-- error summary -->
+          <div class="govuk-error-summary" aria-labelledby="error-summary-title" role="alert" tabindex="-1"
+            data-module="govuk-error-summary">
+            <h2 class="govuk-error-summary__title" id="error-summary-title">
+              There is a problem
+            </h2>
+            <div class="govuk-error-summary__body">
+              <ul class="govuk-list govuk-error-summary__list">
+              </ul>
+            </div>
+          </div>
+          <div class="govuk-notification-banner" role="region" aria-labelledby="govuk-notification-banner-title"
+            data-module="govuk-notification-banner">
+            <div class="govuk-notification-banner__header">
+              <h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title">
+                Important
+              </h2>
+            </div>
+            <div class="govuk-notification-banner__content">
+              <p class="govuk-notification-banner__heading">
+                You have 7 days left to send your application.
+                <a class="govuk-notification-banner__link" href="#">View application</a>.
+              </p>
+            </div>
+          </div>
+          <!-- Page title -->
+          <h1 class="govuk-heading-xl">Test page for all gov.uk components</h1>
+
+          <!-- Paste GOV.UK design system components here -->
+          <!-- available at: https://design-system.service.gov.uk/components/  -->
+          <h2 class="govuk-heading-l">Input components</h2>
+          <h3 class="govuk-heading-m">checkboxes</h3>
+          <div class="govuk-form-group">
+            <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
+              <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+                <h1 class="govuk-fieldset__heading">
+                  Which types of waste do you transport?
+                </h1>
+              </legend>
+              <span id="waste-hint" class="govuk-hint">
+                Select all that apply.
+              </span>
+              <span id="waste-error" class="govuk-error-message">
+                <span class="govuk-visually-hidden">Error:</span> Select one of the options
+              </span>
+              <div class="govuk-checkboxes">
+                <div class="govuk-checkboxes__item">
+                  <input class="govuk-checkboxes__input" id="waste" name="waste" type="checkbox" value="carcasses">
+                  <label class="govuk-label govuk-checkboxes__label" for="waste">
+                    Waste from animal carcasses
+                  </label>
+                </div>
+                <div class="govuk-checkboxes__item">
+                  <input class="govuk-checkboxes__input" id="waste-2" name="waste" type="checkbox" value="mines">
+                  <label class="govuk-label govuk-checkboxes__label" for="waste-2">
+                    Waste from mines or quarries
+                  </label>
+                </div>
+                <div class="govuk-checkboxes__item">
+                  <input class="govuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
+                  <label class="govuk-label govuk-checkboxes__label" for="waste-3">
+                    Farm or agricultural waste
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+          <h3 class="govuk-heading-m">date input</h3>
+          <div class="govuk-form-group">
+            <fieldset class="govuk-fieldset" role="group" aria-describedby="passport-issued-hint">
+              <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+                <h1 class="govuk-fieldset__heading">
+                  When was your passport issued?
+                </h1>
+              </legend>
+              <span id="passport-issued-hint" class="govuk-hint">
+                For example, 12 11 2007
+              </span>
+              <span id="date-error" class="govuk-error-message">
+                <span class="govuk-visually-hidden">Error:</span> Enter the date your passport was issued
+              </span>
+              <div class="govuk-date-input" id="passport-issued">
+                <div class="govuk-date-input__item">
+                  <div class="govuk-form-group">
+                    <label class="govuk-label govuk-date-input__label" for="passport-issued-day">
+                      Day
+                    </label>
+                    <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-day"
+                      name="passport-issued-day" type="text" pattern="[0-9]*" inputmode="numeric">
+                  </div>
+                </div>
+                <div class="govuk-date-input__item">
+                  <div class="govuk-form-group">
+                    <label class="govuk-label govuk-date-input__label" for="passport-issued-month">
+                      Month
+                    </label>
+                    <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-month"
+                      name="passport-issued-month" type="text" pattern="[0-9]*" inputmode="numeric">
+                  </div>
+                </div>
+                <div class="govuk-date-input__item">
+                  <div class="govuk-form-group">
+                    <label class="govuk-label govuk-date-input__label" for="passport-issued-year">
+                      Year
+                    </label>
+                    <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="passport-issued-year"
+                      name="passport-issued-year" type="text" pattern="[0-9]*" inputmode="numeric">
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+
+
+          <h3 class="govuk-heading-m">select</h3>
+          <div class="govuk-form-group">
+            <label class="govuk-label" for="sort">
+              Sort by
+            </label>
+            <span id="sort-error" class="govuk-error-message">
+              <span class="govuk-visually-hidden">Error:</span> chose an option to sort the data with
+            </span>
+            <select class="govuk-select" id="sort" name="sort">
+              <option value="published">Recently published</option>
+              <option value="updated" selected>Recently updated</option>
+              <option value="views">Most views</option>
+              <option value="comments">Most comments</option>
+            </select>
+          </div>
+
+          <h3 class="govuk-heading-m">radios</h3>
+          <div class="govuk-form-group">
+            <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+              <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+                <h1 class="govuk-fieldset__heading">
+                  Have you changed your name?
+                </h1>
+              </legend>
+              <span id="changed-name-hint" class="govuk-hint">
+                This includes changing your last name or spelling your name differently.
+              </span>
+              <span id="changeName-error" class="govuk-error-message">
+                <span class="govuk-visually-hidden">Error:</span> select yes if you have changed your name
+              </span>
+              <div class="govuk-radios govuk-radios--inline">
+                <div class="govuk-radios__item">
+                  <input class="govuk-radios__input" id="changed-name" name="changed-name" type="radio" value="yes">
+                  <label class="govuk-label govuk-radios__label" for="changed-name">
+                    Yes
+                  </label>
+                </div>
+                <div class="govuk-radios__item">
+                  <input class="govuk-radios__input" id="changed-name-2" name="changed-name" type="radio" value="no">
+                  <label class="govuk-label govuk-radios__label" for="changed-name-2">
+                    No
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+
+          <h2 class="govuk-heading-l">Layout components</h2>
+          <h3 class="govuk-heading-m">Accordion</h3>
+          <div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
+            <div class="govuk-accordion__section ">
+              <div class="govuk-accordion__section-header">
+                <h2 class="govuk-accordion__section-heading">
+                  <span class="govuk-accordion__section-button" id="accordion-default-heading-1">
+                    Writing well for the web
+                  </span>
+                </h2>
+              </div>
+              <div id="accordion-default-content-1" class="govuk-accordion__section-content"
+                aria-labelledby="accordion-default-heading-1">
+                <p class="govuk-body">This is the content for Writing well for the web.</p>
+              </div>
+            </div>
+            <div class="govuk-accordion__section ">
+              <div class="govuk-accordion__section-header">
+                <h2 class="govuk-accordion__section-heading">
+                  <span class="govuk-accordion__section-button" id="accordion-default-heading-2">
+                    Writing well for specialists
+                  </span>
+                </h2>
+              </div>
+              <div id="accordion-default-content-2" class="govuk-accordion__section-content"
+                aria-labelledby="accordion-default-heading-2">
+                <p class="govuk-body">This is the content for Writing well for specialists.</p>
+              </div>
+            </div>
+            <div class="govuk-accordion__section ">
+              <div class="govuk-accordion__section-header">
+                <h2 class="govuk-accordion__section-heading">
+                  <span class="govuk-accordion__section-button" id="accordion-default-heading-3">
+                    Know your audience
+                  </span>
+                </h2>
+              </div>
+              <div id="accordion-default-content-3" class="govuk-accordion__section-content"
+                aria-labelledby="accordion-default-heading-3">
+                <p class="govuk-body">This is the content for Know your audience.</p>
+              </div>
+            </div>
+            <div class="govuk-accordion__section ">
+              <div class="govuk-accordion__section-header">
+                <h2 class="govuk-accordion__section-heading">
+                  <span class="govuk-accordion__section-button" id="accordion-default-heading-4">
+                    How people read
+                  </span>
+                </h2>
+              </div>
+              <div id="accordion-default-content-4" class="govuk-accordion__section-content"
+                aria-labelledby="accordion-default-heading-4">
+                <p class="govuk-body">This is the content for How people read.</p>
+              </div>
+            </div>
+          </div>
+          <h3 class="govuk-heading-m">details</h3>
+          <details class="govuk-details" data-module="govuk-details">
+            <summary class="govuk-details__summary">
+              <span class="govuk-details__summary-text">
+                Help with nationality
+              </span>
+            </summary>
+            <div class="govuk-details__text">
+              We need to know your nationality so we can work out which elections you’re entitled to vote in. If you
+              cannot provide your nationality, you’ll have to send copies of identity documents through the post.
+            </div>
+          </details>
+          <h3 class="govuk-heading-m">inset text</h3>
+          <div class="govuk-inset-text">
+            It can take up to 8 weeks to register a lasting power of attorney if there are no mistakes in the
+            application.
+          </div>
+
+          <h3 class="govuk-heading-m">tables</h3>
+          <table class="govuk-table">
+            <caption class="govuk-table__caption">Dates and amounts</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th scope="col" class="govuk-table__header">Date</th>
+                <th scope="col" class="govuk-table__header">Amount</th>
+                <th scope="col" class="govuk-table__header">Action</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+              <tr class="govuk-table__row">
+                <th scope="row" class="govuk-table__header">First 6 weeks</th>
+                <td class="govuk-table__cell">£109.80 per week</td>
+                <td class="govuk-table__cell"><a class="govuk-link" href="#">view</a></td>
+              </tr>
+              <tr class="govuk-table__row">
+                <th scope="row" class="govuk-table__header">Next 33 weeks</th>
+                <td class="govuk-table__cell">£109.80 per week</td>
+                <td class="govuk-table__cell"><a class="govuk-link" href="#">view</a></td>
+              </tr>
+              <tr class="govuk-table__row">
+                <th scope="row" class="govuk-table__header">Total estimated pay</th>
+                <td class="govuk-table__cell">£4,282.20</td>
+                <td class="govuk-table__cell"><a class="govuk-link" href="#">view</a></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="govuk-table">
+
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+
+                <th scope="col" class="govuk-table__header" aria-sort="ascending">Name</th>
+
+                <th scope="col" class="govuk-table__header" aria-sort="none">Elevation</th>
+
+                <th scope="col" class="govuk-table__header" aria-sort="none">Continent</th>
+
+                <th scope="col" class="govuk-table__header govuk-table__header--numeric" aria-sort="none">First summit
+                </th>
+
+                <th scope="col" class="govuk-table__header govuk-table__header--numeric" aria-sort="none">Actions</th>
+
+              </tr>
+            </thead>
+
+            <tbody class="govuk-table__body">
+
+              <tr class="govuk-table__row">
+
+                <td class="govuk-table__cell" id="rowName-1">Aconcagua</td>
+
+                <td class="govuk-table__cell" data-sort-value="6961">6,961 meters</td>
+
+                <td class="govuk-table__cell">South America</td>
+
+                <td class="govuk-table__cell govuk-table__cell--numeric" data-sort-value="1897">1897</td>
+
+                <td class="govuk-table__cell"><a class="govuk-link" href="#" headers="rowName-1">view</a></td>
+
+              </tr>
+
+              <tr class="govuk-table__row">
+
+                <th class="govuk-table__cell" scope="row">Denali</th>
+
+                <td class="govuk-table__cell" data-sort-value="6194">6,194 meters</td>
+
+                <td class="govuk-table__cell">North America</td>
+
+                <td class="govuk-table__cell govuk-table__cell--numeric" data-sort-value="1913">1913</td>
+
+                <td class="govuk-table__cell"><a class="govuk-link" href="#">view</a></td>
+
+              </tr>
+
+              <tr class="govuk-table__row">
+
+                <td class="govuk-table__cell">Elbrus</td>
+
+                <td class="govuk-table__cell" data-sort-value="5642">5,642 meters</td>
+
+                <td class="govuk-table__cell">Europe</td>
+
+                <td class="govuk-table__cell govuk-table__cell--numeric" data-sort-value="1874">1874</td>
+
+                <td class="govuk-table__cell"><a class="govuk-link" href="#">view</a></td>
+
+              </tr>
+
+              <tr class="govuk-table__row">
+
+                <td class="govuk-table__cell">Everest</td>
+
+                <td class="govuk-table__cell" data-sort-value="8850">8,850 meters</td>
+
+                <td class="govuk-table__cell">Asia</td>
+
+                <td class="govuk-table__cell govuk-table__cell--numeric" data-sort-value="1953">1953</td>
+
+                <td class="govuk-table__cell"><a class="govuk-link" href="#">view</a></td>
+
+              </tr>
+
+              <tr class="govuk-table__row">
+
+                <td class="govuk-table__cell">Kilimanjaro</td>
+
+                <td class="govuk-table__cell" data-sort-value="5895">5,895 meters</td>
+
+                <td class="govuk-table__cell">Africa</td>
+
+                <td class="govuk-table__cell govuk-table__cell--numeric" data-sort-value="1889">1889</td>
+
+                <td class="govuk-table__cell"><a class="govuk-link" href="#">view</a></td>
+
+              </tr>
+
+              <tr class="govuk-table__row">
+
+                <td class="govuk-table__cell">Puncak Jaya</td>
+
+                <td class="govuk-table__cell" data-sort-value="4884">4,884 meters</td>
+
+                <td class="govuk-table__cell">Australia</td>
+
+                <td class="govuk-table__cell govuk-table__cell--numeric" data-sort-value="1962">1962</td>
+
+                <td class="govuk-table__cell"><a class="govuk-link" href="#">view</a></td>
+
+              </tr>
+
+              <tr class="govuk-table__row">
+
+                <td class="govuk-table__cell">Vinson</td>
+
+                <td class="govuk-table__cell" data-sort-value="4897">4,897 meters</td>
+
+                <td class="govuk-table__cell">Antarctica</td>
+
+                <td class="govuk-table__cell govuk-table__cell--numeric" data-sort-value="1966">1966</td>
+
+                <td class="govuk-table__cell"><a class="govuk-link" href="#">view</a></td>
+
+              </tr>
+
+            </tbody>
+          </table>
+
+          <h3 class="govuk-heading-m">tabs</h3>
+          <div class="govuk-tabs" data-module="govuk-tabs">
+            <h2 class="govuk-tabs__title">
+              Contents
+            </h2>
+            <ul class="govuk-tabs__list">
+              <li class="govuk-tabs__list-item govuk-tabs__list-item--selected">
+                <a class="govuk-tabs__tab" href="#past-day">
+                  Past day
+                </a>
+              </li>
+              <li class="govuk-tabs__list-item">
+                <a class="govuk-tabs__tab" href="#past-week">
+                  Past week
+                </a>
+              </li>
+              <li class="govuk-tabs__list-item">
+                <a class="govuk-tabs__tab" href="#past-month">
+                  Past month
+                </a>
+              </li>
+              <li class="govuk-tabs__list-item">
+                <a class="govuk-tabs__tab" href="#past-year">
+                  Past year
+                </a>
+              </li>
+            </ul>
+            <div class="govuk-tabs__panel" id="past-day">
+              <h2 class="govuk-heading-l">Past day</h2>
+              <table class="govuk-table">
+                <thead class="govuk-table__head">
+                  <tr class="govuk-table__row">
+                    <th scope="col" class="govuk-table__header">Case manager</th>
+                    <th scope="col" class="govuk-table__header">Cases opened</th>
+                    <th scope="col" class="govuk-table__header">Cases closed</th>
+                  </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                  <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">David Francis</td>
+                    <td class="govuk-table__cell">3</td>
+                    <td class="govuk-table__cell">0</td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">Paul Farmer</td>
+                    <td class="govuk-table__cell">1</td>
+                    <td class="govuk-table__cell">0</td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">Rita Patel</td>
+                    <td class="govuk-table__cell">2</td>
+                    <td class="govuk-table__cell">0</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+            <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-week">
+              <h2 class="govuk-heading-l">Past week</h2>
+              <table class="govuk-table">
+                <thead class="govuk-table__head">
+                  <tr class="govuk-table__row">
+                    <th scope="col" class="govuk-table__header">Case manager</th>
+                    <th scope="col" class="govuk-table__header">Cases opened</th>
+                    <th scope="col" class="govuk-table__header">Cases closed</th>
+                  </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                  <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">David Francis</td>
+                    <td class="govuk-table__cell">24</td>
+                    <td class="govuk-table__cell">18</td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">Paul Farmer</td>
+                    <td class="govuk-table__cell">16</td>
+                    <td class="govuk-table__cell">20</td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">Rita Patel</td>
+                    <td class="govuk-table__cell">24</td>
+                    <td class="govuk-table__cell">27</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+            <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-month">
+              <h2 class="govuk-heading-l">Past month</h2>
+              <table class="govuk-table">
+                <thead class="govuk-table__head">
+                  <tr class="govuk-table__row">
+                    <th scope="col" class="govuk-table__header">Case manager</th>
+                    <th scope="col" class="govuk-table__header">Cases opened</th>
+                    <th scope="col" class="govuk-table__header">Cases closed</th>
+                  </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                  <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">David Francis</td>
+                    <td class="govuk-table__cell">98</td>
+                    <td class="govuk-table__cell">95</td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">Paul Farmer</td>
+                    <td class="govuk-table__cell">122</td>
+                    <td class="govuk-table__cell">131</td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">Rita Patel</td>
+                    <td class="govuk-table__cell">126</td>
+                    <td class="govuk-table__cell">142</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+            <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-year">
+              <h2 class="govuk-heading-l">Past year</h2>
+              <table class="govuk-table">
+                <thead class="govuk-table__head">
+                  <tr class="govuk-table__row">
+                    <th scope="col" class="govuk-table__header">Case manager</th>
+                    <th scope="col" class="govuk-table__header">Cases opened</th>
+                    <th scope="col" class="govuk-table__header">Cases closed</th>
+                  </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                  <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">David Francis</td>
+                    <td class="govuk-table__cell">1380</td>
+                    <td class="govuk-table__cell">1472</td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">Paul Farmer</td>
+                    <td class="govuk-table__cell">1129</td>
+                    <td class="govuk-table__cell">1083</td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">Rita Patel</td>
+                    <td class="govuk-table__cell">1539</td>
+                    <td class="govuk-table__cell">1265</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+
+          <div class="govuk-form-group">
+            <label class="govuk-label govuk-label--m" for="user-title">
+              Title
+            </label>
+            <span id="title-error" class="govuk-error-message">
+              <span class="govuk-visually-hidden">Error:</span> Enter your title
+            </span>
+            <select class="govuk-select" id="user-title" name="user-title">
+              <option value="0">- select -</option>
+              <option value="Mr">Mr</option>
+              <option value="Ms">Ms</option>
+              <option value="Mrs">Mrs</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="govuk-form-group">
+            <label class="govuk-label govuk-label--m" for="firstname">
+              Firstname
+            </label>
+            <span id="firstname-error" class="govuk-error-message">
+              <span class="govuk-visually-hidden">Error:</span> Enter your first name
+            </span>
+            <input class="govuk-input " id="firstname" name="firstname" type="text">
+          </div>
+
+
+          <div class="govuk-form-group">
+            <label class="govuk-label govuk-label--m" for="more-detail--opt">
+              Provide more details about your application (optional)
+            </label>
+            <span id="more-detail-hint" class="govuk-hint">
+              Do not include personal or financial information, like your National Insurance number or credit card
+              details.
+            </span>
+            <span id="more-detail-error" class="govuk-error-message">
+              <span class="govuk-visually-hidden">Error:</span> Provide more detail on your application
+            </span>
+            <textarea class="govuk-textarea" id="more-detail--opt" name="more-detail--opt" rows="5"
+              aria-describedby="more-detail-hint"></textarea>
+          </div>
+
+          <div class="govuk-form-group">
+            <label class="govuk-label govuk-label--m" for="file-upload-cv">
+              Upload your CV
+            </label>
+            <span id="file-upload-1-error" class="govuk-error-message">
+              <span class="govuk-visually-hidden">Error:</span> Select a document to upload
+            </span>
+            <input class="govuk-file-upload" id="file-upload-cv" name="file-upload-cv" type="file">
+          </div>
+
+          <!--enter the next page of your prototype into the 'saveData' JavaScript function-->
+          <button class="govuk-button" onclick="saveData('checkPage-1.html')">
+            Save and continue
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="nidirect_footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <p class="govuk-body">
+      <ul>
+        <li>
+          <a class="govuk-link" href="#" target="blank" rel="nofollow">Privacy (opens in a new tab)</a>
+        </li>
+        <li>
+          <a class="govuk-link" href="#" target="blank" rel="nofollow">Cookies (opens in a new tab)</a>
+        </li>
+        <li>
+          <a class="govuk-link" href="#" target="blank" rel="nofollow">Accessibility</a>
+        </li>
+      </ul>
+      </p>
+    </div>
+  </footer>
+  <script src="javascript/all.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll()
+
+  </script>
+  <script src="javascript/prototypeForm.min.js"></script>
+  <script>window.showData()</script>
+
+</body>
+
+</html>
